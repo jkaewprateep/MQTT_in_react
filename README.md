@@ -18,6 +18,10 @@ Implement MQTT in react application
 🐯💬 Culture-INFO, We borrow the communication from both Polygon and Alpaca we reserve the name for understanding and someone who changes the message subscriber knows about the objective and resources of our news publisher. </br>
 🦁💬 The maintenance list should be provided and name codes should be identified, labeled, and noticed by observation in this example is Polygon and Alpaca. The name noticed cannot identify the source will have a secondary order and be considered to be purged from the system then labels of the communication channel subscriber make secured communication and easy for maintenance and services.</br>
 ```
+
+### Codings example
+🐐💬 It is simple to subscribe service that the publisher published and allowed by the IT networks administrator, the re-connection time period is a sample policy for recognizing subscribers who are subscribed to the service to prevent third-party extract information from living longer in the network. </br>   
+```
 const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt";
     const TOPICS = ["tg/polygon/QCOM", "tg/polygon/SMCI", "tg/polygon/TSLA", "tg/polygon/AMZN", "tg/polygon/GOOGL", "tg/polygon/META",
         "tg/polygon/TQQQ", "tg/polygon/AAPL", "tg/polygon/AMD","tg/polygon/COIN", "tg/polygon/CRWD", "tg/polygon/SQQQ",
@@ -49,12 +53,10 @@ const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt
                 const existingIndex = prevMessages.findIndex(stock => stock.symbol === payload.symbol);
                 
                 if (existingIndex !== -1) {
-                    // แทนค่าข้อมูลเดิมที่มีอยู่
                     return prevMessages.map((stock, index) =>
                         index === existingIndex ? { ...stock, ...payload } : stock
                     );
                 } else {
-                    // เพิ่มข้อมูลใหม่หากยังไม่มี symbol นี้
                     return [...prevMessages, payload];
                 }
             });
@@ -69,7 +71,7 @@ const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt
         };
     }, []);
 ```
-
+👧💬 🎈 Pretty easy to implement when information is in a Java array, mapping function. Should the price be added to this subscription? </br>
 ```
 <table className="w-full mt-2 border">
                             <thead>
@@ -111,3 +113,11 @@ const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt
                             </tbody>
                         </table>
 ```
+
+---
+
+<p align="center" width="100%">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset.png">
+    <img width="30%" src="https://github.com/jkaewprateep/advanced_mysql_topics_notes/blob/main/custom_dataset_2.png"> </br>
+    <b> 🥺💬 รับจ้างเขียน functions </b> </br>
+</p
