@@ -17,7 +17,6 @@ Implement MQTT in react application
 
 🐯💬 Culture-INFO, We borrow the communication from both Polygon and Alpaca we reserve the name for understanding and someone who changes the message subscriber knows about the objective and resources of our news publisher. </br>
 🦁💬 The maintenance list should be provided and name codes should be identified, labeled, and noticed by observation in this example is Polygon and Alpaca. The name noticed cannot identify the source will have a secondary order and be considered to be purged from the system then labels of the communication channel subscriber make secured communication and easy for maintenance and services.</br>
-```
 
 ### Codings example
 🐐💬 It is simple to subscribe service that the publisher published and allowed by the IT networks administrator, the re-connection time period is a sample policy for recognizing subscribers who are subscribed to the service to prevent third-party extract information from living longer in the network. </br>   
