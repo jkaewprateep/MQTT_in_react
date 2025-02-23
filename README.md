@@ -10,6 +10,8 @@ Implement MQTT in react application
     <b> ( Picture from Internet ) </b> </br>
 </p>
 
+🧸💬 Publisher  Subscriber broadcast message useful for communication from a single source to multiple subscribers and the property of this communication is safe the message continues to grow very fast since the publisher answers subscribers with similar and different channels by their selection. It can communicate within the secured channel of WebSocket ```wss://``` and implement user credentials, We using with our react application <br>
+
 ```
 const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt";
     const TOPICS = ["tg/polygon/QCOM", "tg/polygon/SMCI", "tg/polygon/TSLA", "tg/polygon/AMZN", "tg/polygon/GOOGL", "tg/polygon/META",
