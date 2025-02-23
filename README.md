@@ -15,6 +15,8 @@ Implement MQTT in react application
 
 🦭💬 Implementing is easy as broadcast news channel part of information can read and path of information need to extract and transform, in this example had an example of transform information to display on our react application. Do not forget feeding information is needed for both side's expectations to have a sentence comparison or reading from extracted information should lead to full understanding. </br>
 
+🐯💬 Culture-INFO, We borrow the communication from both Polygon and Alpaca we reserve the name for understanding and someone who changes the message subscriber knows about the objective and resources of our news publisher. </br>
+🦁💬 The maintenance list should be provided and name codes should be identified, labeled, and noticed by observation in this example is Polygon and Alpaca. The name noticed cannot identify the source will have a secondary order and be considered to be purged from the system then labels of the communication channel subscriber make secured communication and easy for maintenance and services.</br>
 ```
 const MQTT_WEBSOCKET_URL = "ws://tg-stocks-broker.techglobetrading.com:8083/mqtt";
     const TOPICS = ["tg/polygon/QCOM", "tg/polygon/SMCI", "tg/polygon/TSLA", "tg/polygon/AMZN", "tg/polygon/GOOGL", "tg/polygon/META",
